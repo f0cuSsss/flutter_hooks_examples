@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'examples/animation_rotate_hook_widget.dart';
 import 'examples/animation_rotate_widget.dart';
+import 'examples/timer_hook_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,9 +19,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
       ),
-      // home: const TimerHookWidget(),
+      home: TimerHookWidget(),
       // home: const AnimationRotateStateful(),
-      home: AnimationRotateHookStateful(),
+      // home: AnimationRotateHookStateful(),
     );
   }
 }
